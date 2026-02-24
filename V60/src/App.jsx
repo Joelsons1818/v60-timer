@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { useRecipe } from './hooks/useRecipe';
 import { ConfigScreen } from './components/ConfigScreen';
 import { TimerScreen } from './components/TimerScreen';
@@ -49,6 +50,7 @@ function App() {
         />
       )}
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
