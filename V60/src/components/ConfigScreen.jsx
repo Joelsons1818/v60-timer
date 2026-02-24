@@ -113,6 +113,7 @@ export function ConfigScreen({
             <button className="btn-primary" onClick={onStart}>
                 Start Brewing
             </button>
+            <div className="made-by-card">Made by Daniel Joelsons</div>
         </div>
     );
 }

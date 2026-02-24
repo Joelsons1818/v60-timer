@@ -451,3 +451,13 @@ body {
 .recipe-footer .divider {
   color: rgba(255, 255, 255, 0.2);
 }
+
+.made-by-card {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: calc(var(--spacing-sm) * -1);
+  /* Pull it slightly closer to button */
+}

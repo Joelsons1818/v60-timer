@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { useRecipe } from './hooks/useRecipe';
 import { ConfigScreen } from './components/ConfigScreen';
 import { TimerScreen } from './components/TimerScreen';
@@ -47,6 +48,7 @@ function App() {
           onReset={handleReset}
         />
       )}
+      <Analytics />
     </div>
   );
 }
